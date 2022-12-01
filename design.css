@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+
+.container {
+           width: 80%;
+           margin:0 auto;
+}
+
+
+header  {
+
+    background-color:plum ;
+}
+
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+nav {
+float:left;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    }
+nav li{
+    display:inline-block;
+    margin-left: 70px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+aside{
+width: 100px;
+max-width: 150px;
+min-width: 100px;
+float: right;
+background-color: plum;
+
+
+}
